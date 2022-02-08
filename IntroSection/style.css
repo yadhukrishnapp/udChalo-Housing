@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.headerClass {
+  position: absolute;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 30.11%,
+      rgba(0, 0, 0, 0.701231) 74.39%,
+      #000000 100%
+    ),
+    url("Images/Background-image.png");
+  backdrop-filter: blur(2px);
+  width: 1441px;
+  height: 682px;
+  left: 0px;
+}
+
+#title {
+  position: absolute;
+  width: 341px;
+  height: 48px;
+  left: 550px;
+  top: 411px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 48px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+#priceImage {
+  position: absolute;
+  width: 560px;
+  height: 36px;
+  left: 437px;
+  top: 484px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+#reg {
+  position: absolute;
+  width: 445px;
+  height: 30px;
+  left: 507px;
+  top: 536px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+#regStyle {
+  font-weight: 600;
+}
+
+#regImage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 280px;
+  position: absolute;
+  width: 1108px;
+  height: 94px;
+  right: 450px;
+  top: 589px;
+  backdrop-filter: blur(4px);
+}
+
+#verify-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px;
+
+  position: absolute;
+  width: 1108px;
+  height: 148px;
+  right: 248px;
+  top: 682px;
+
+  background: #ffffff;
+  border: 1px solid #3398d5;
+  box-sizing: border-box;
+  border-radius: 0px 0px 8px 8px;
+}
+
+#verify-text {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+
+#verify-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 47px;
+  background: #32996a;
+  border-radius: 8px;
+  outline: none;
+  margin: 16px 0px;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+}
