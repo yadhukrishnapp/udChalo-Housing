@@ -1,0 +1,67 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  position: absolute;
+  height: 200px;
+  width: 100%;
+  background: #f0f6f8;
+}
+
+.heading {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
+  margin: 25px 0;
+  text-align: center;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-items {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0 25px;
+}
+
+img {
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+#value-mail {
+  padding-left: 15px;
+}
+
+#value-mobile {
+  padding-right: 48px;
+}
+
+#value-whatsapp {
+  padding-right: 41px;
+}
+
+.title {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 31px;
+}
+
+.value {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 31px;
+  font-weight: normal;
+}
